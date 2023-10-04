@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Star Wars Search</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Star+Jedi">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="icon" type="image/png" href="https://wallpapercave.com/wp/wp2842365.png">
+</head>
+
+<body>
+    <header>
+        <h1 class="myHeader" id="myHeader">Star Wars Search</h1>
+        <img src="https://www.seekpng.com/png/full/136-1364044_blue-lightsaber-transparent-background-png-wrapping-paper.png" alt="Blue Lightsaber" id="blueLightsaber" class="lightsaber hidden">
+        <img src="https://www.pngarts.com/files/3/Red-Lightsaber-Free-PNG-Image.png" alt="Red Lightsaber" id="redLightsaber" class="lightsaber hidden">
+    </header>
+    <div id="themeButtons">
+        <button id="sithModeButton">SITH MODE</button>
+        <button id="jediModeButton">JEDI MODE</button>
+    </div>
+    <div id="searchBox">
+        <input type="text" id="query" placeholder="Enter your search">
+        <button id="searchButton">Search</button>
+        <button type="submit" id="currentTimeButton">Show Time</button>
+        <button id="luckyButton">I'm Feeling Lucky</button>
+    </div>
+    <div id="time" class="hidden">
+    </div>
+    <br>
+    <div id="searchResults" class="hidden">
+    </div>
+</body>
+</html>

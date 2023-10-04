@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/01/02/88/40/360_F_102884000_9nDhPvgQwwaNgDWbAwUJVR0puNDOMYhL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#myHeader {
+    background-color: #000;
+    color: #ffd700; /* Yellow color for the header */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 36px; /* Increase font size for header */
+    cursor: pointer; /* Add a pointer cursor for the header */
+}
+
+#searchBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#query {
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+#searchButton, #currentTimeButton, #luckyButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #000;
+    color: #ffd700;
+    border: none;
+    cursor: pointer;
+}
+
+    #searchButton:hover, #currentTimeButton:hover, #luckyButton:hover {
+        background-color: #ffd700;
+        color: #000;
+    }
+
+.hidden {
+    display: none;
+}
+
+#searchResults, #time {
+    text-align: left;
+    padding-block: auto;
+    margin-top: 20px;
+    color: #ffd700; /* Yellow color for text */
+    background-color: black;
+    justify-content: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ... (previous CSS code) ... */
+
+#themeButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sithModeButton, #jediModeButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#sithModeButton {
+    background-color: #900;
+    color: #000;
+}
+
+#jediModeButton {
+    background-color: #0000A0;
+    color: #fff;
+}
+
+    #sithModeButton:hover, #jediModeButton:hover {
+        filter: brightness(0.8); 
+    }
+
+#time {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffd700;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.lightsaber {
+    width: 700px; 
+    height: 100px;
+    display: none; 
+    margin: 0 auto;
+}
+
